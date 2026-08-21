@@ -1,11 +1,7 @@
 import "./App.css";
 
 function App() {
-  return (
-    <>
-      <h1>Hello Protfolio Tanmoy not working</h1>
-    </>
-  );
+  return <>Hello Portfolio Tanmoy</>;
 }
 
 export default App;
