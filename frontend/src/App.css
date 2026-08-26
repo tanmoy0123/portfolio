@@ -340,7 +340,6 @@ a {
 ================================ */
 
 .hero-section {
-  padding-top: var(--spacing-lg);
   align-items: center;
 }
 

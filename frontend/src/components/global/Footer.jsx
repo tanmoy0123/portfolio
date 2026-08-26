@@ -42,7 +42,7 @@ const Footer = () => {
               >
                 mail
               </span>
-              Email
+              tanmoymozumder0@gmail.com
             </a>
           </div>
 
