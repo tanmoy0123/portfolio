@@ -8,7 +8,7 @@ const Header = () => {
             href="#"
             style={{ fontWeight: 700, letterSpacing: "-0.02em" }}
           >
-            TANMOY M
+            TANMOY M.
           </a>
 
           <div className="nav-links">
@@ -37,7 +37,8 @@ const Header = () => {
 
           <a
             className="btn btn-primary btn-sm hide-md show-md-flex"
-            href="#contact"
+            href="https://1drv.ms/b/c/b59b76edb9a6065f/IQAmT96NlUBDR60zfzrzvfGfAaxtigBK1rg-E05ITtx5yA4?e=TH4xp1"
+            target="_blank"
           >
             Resume
           </a>

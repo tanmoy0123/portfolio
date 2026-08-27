@@ -3,38 +3,13 @@ const Footer = () => {
     <>
       <footer className="footer">
         <div className="container footer-container">
-          <div className="text-body-lg footer-logo">ALEX.DEV</div>
+          <div className="text-body-lg footer-logo">TANMOY M.</div>
 
           <div className="footer-socials">
+            {/* Email */}
             <a
               className="social-link text-caption text-variant font-display"
-              href="#"
-            >
-              <span
-                className="material-symbols-outlined"
-                style={{ fontSize: "16px" }}
-              >
-                code
-              </span>
-              GitHub
-            </a>
-
-            <a
-              className="social-link text-caption text-variant font-display"
-              href="#"
-            >
-              <span
-                className="material-symbols-outlined"
-                style={{ fontSize: "16px" }}
-              >
-                connect_without_contact
-              </span>
-              LinkedIn
-            </a>
-
-            <a
-              className="social-link text-caption text-variant font-display"
-              href="#"
+              href="mailto:tanmoymozumder0@gmail.com"
             >
               <span
                 className="material-symbols-outlined"
@@ -44,10 +19,24 @@ const Footer = () => {
               </span>
               tanmoymozumder0@gmail.com
             </a>
+
+            {/* Phone Number */}
+            <a
+              className="social-link text-caption text-variant font-display"
+              href="tel:+8801701716101"
+            >
+              <span
+                className="material-symbols-outlined"
+                style={{ fontSize: "16px" }}
+              >
+                call
+              </span>
+              +880 1701716101
+            </a>
           </div>
 
           <div className="text-caption text-variant font-display">
-            © 2024 Developer Portfolio. All rights reserved.
+            © {new Date().getFullYear()} Tanmoy Mozumder. All rights reserved.
           </div>
         </div>
       </footer>

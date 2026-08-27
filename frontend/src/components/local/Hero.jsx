@@ -16,15 +16,10 @@ const Hero = () => {
           <h1 className="text-display">
             Tanmoy Mozumder
             <br />
-            <span className="text-accent">Full Stack Developer</span>
+            <span className="text-accent" style={{ fontSize: "2.5rem" }}>
+              Full Stack Developer
+            </span>
           </h1>
-
-          {/* <p className="text-body-lg text-variant hero-description">
-            I specialize in full-stack development utilizing Java, Spring Boot,
-            Angular, and React. My expertise lies in crafting RESTful APIs,
-            optimizing databases, and deploying reliable solutions to cloud
-            environments like AWS.
-          </p> */}
 
           <p className="text-body-md text-variant hero-description">
             I build and ship scalable full-stack web applications — mostly Java
@@ -43,7 +38,6 @@ const Hero = () => {
             is on seamless end-to-end delivery.
           </p>
           <div className="hero-buttons" style={{ flexWrap: "wrap" }}>
-            {/* GitHub */}
             <a
               className="btn btn-secondary"
               href="https://github.com/tanmoy0123"
@@ -65,7 +59,6 @@ const Hero = () => {
               GitHub
             </a>
 
-            {/* LinkedIn */}
             <a
               className="btn btn-secondary"
               href="https://www.linkedin.com/in/tanmoymozumder/"
@@ -89,10 +82,9 @@ const Hero = () => {
               LinkedIn
             </a>
 
-            {/* Email */}
             <a
               className="btn btn-secondary"
-              href="https://leetcode.com/u/your-username/"
+              href="https://leetcode.com/u/tanmoymozumder0/"
               target="_blank"
               rel="noreferrer"
             >
@@ -114,7 +106,7 @@ const Hero = () => {
           <img
             alt="Tanmoy Mozumder"
             className="hero-image"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdtAzGmd1NV4QWbUn4P_8cC810IjQrwvn_YPfT_Mng8uy_1CG7QL8j0pmj9g9_4A8ymOlYs4wwiBOyGdqMqNMJockPpqq3LAr6xBZx-IA9a5UjydFzT0zE3X_2mBgS_xaeEHgalqKnSgo629fxB5sO4jrb6lokSg1t8lbKwTgOjuLorJdDF_P8685WY78rBWuQxt1Fy3F4RHTlkK1xgM4wEhURXwqZUFk6wCJqY_2WE_f5S3_EDkTCLg"
+            src="/assets/images/formal.jpg"
           />
         </div>
       </section>
